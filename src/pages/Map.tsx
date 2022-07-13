@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { GoogleMap, InfoWindow, Marker, useJsApiLoader } from "@react-google-maps/api";
 import Context from "../Context/ContextProvider";
 
-const key = "AIzaSyC6M8IEr64RMssRuvlRrm_vlaUcsjMabrI";
+const key = "";  /* Enter Google Map API Key*/
 
 const Map = () => {
   const context: any = useContext(Context);
