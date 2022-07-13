@@ -1,0 +1,100 @@
+.container {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header h1.headerLabel {
+  font-size: 25px;
+  font-weight: bold;
+}
+.btnContainer {
+  display: flex;
+}
+.removeAllBtn {
+  margin-right: 1em;
+}
+.currentContainer {
+  width: 100%;
+}
+.content {
+  max-width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.current {
+  color: grey;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.box_alignment {
+  display: flex;
+  color: black;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serialNum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444;
+  font-weight: "bold";
+  font-size: 1.1em;
+  width: 250;
+}
+.logo {
+  width: 50px;
+  padding-left: 1.5em;
+}
+
+.location {
+  margin-left: 1em;
+}
+
+.location_p {
+  color: #444;
+  font-weight: "bold";
+  font-size: 1.1em;
+  width: 250;
+}
+
+.time {
+  color: #555;
+  font-size: 0.8em;
+}
+
+.location_data {
+  display: flex;
+}
+
+.remove_btn {
+  position: absolute;
+  right: 0;
+  margin-right: 20%;
+}
